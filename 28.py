@@ -1,18 +1,18 @@
-class Car(object):
+class Car():
 	def __init__(self, horsePower):
 		self.horsePower = horsePower
 
-	def printHorsePower(self):
+	def print_horsepower(self):
 		pass
 
 
-class BMW(object):
+class BMW(Car):
 	def __init__(self, horsePower):
 		super().__init__(horsePower)
 
-	def printHorsePower(self):
+	def print_horsepower(self):
 		print(self.horsePower)
 
 
 car = BMW(300)
-car.printHorsePower()
+car.print_horsepower()

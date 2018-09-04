@@ -1,9 +1,9 @@
-def doSomething(something):
+def do_something(something):
 	print("Doing " + str(something))
 
 class Test:
-	def doSomething(self, something):
+	def do_something(self, something):
 		self.__doIt(something)
 
-	def __doIt(self, something):
+	def __do_it(self, something):
 		print("Doing " + str(something))

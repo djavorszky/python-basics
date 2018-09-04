@@ -6,7 +6,7 @@ var4 = 3.2		# Float
 # Dictionaries
 dict1 		= dict()	
 dict2 		= {}
-dic1['key'] = "value"
+dict1['key'] = "value"
 
 # Dynamic lists
 list1 = list()

@@ -6,6 +6,6 @@ class Test:
 		global name
 		name = "Global " + newName
 
-	def printNames(self):
+	def print_names(self):
 		print(name)
 		print(self.name)
