@@ -3,7 +3,7 @@ def do_something(something):
 
 class Test:
 	def do_something(self, something):
-		self.__doIt(something)
+		self.__do_it(something)
 
 	def __do_it(self, something):
 		print("Doing " + str(something))
